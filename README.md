@@ -23,8 +23,8 @@ Jar is placed under target. You can add the it in your project.
 ```python
 Call JsonUtil.<methodName>
 
-convertToJson(T object) : Pass your object, it will convert it to String
-convertToJson(T object, boolean nonNull) : It will convert the object to String ignoring null fields
+convertToJson(T object) : Pass your object, it will convert it to Json String
+convertToJson(T object, boolean nonNull) : It will convert the object to Json String ignoring null fields
 convertToObject(String jsonData, Class<T> clazz) : Maps the json string to the givenClass and returns the instance of it.
 convertToJson(Map<String, Object> map) : Converts the passed map to Json string
 convertToJson(List<T> list) : Converts the list to Json string
